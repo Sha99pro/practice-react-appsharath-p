@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center container */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.profile-container h1 {
+  color: #6a1b9a;
+}
+
+/* Main profile card */
+.profile-card {
+  background: linear-gradient(135deg, #ffd6ff, #c8e7ff);
+  border: 3px solid #9c27b0;
+  padding: 25px;
+  margin: 15px;
+  width: 320px;
+  border-radius: 15px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}
+
+/* Props boxes */
+.info-box {
+  background-color: #ffffff;
+  border: 2px solid #ff6f91;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px 0;
+  text-align: center;
+}
+
+/* Different colors for each box */
+.info-box:nth-child(1) {
+  background-color: #fff3b0;
+  border-color: #ff9800;
+}
+
+.info-box:nth-child(2) {
+  background-color: #b9fbc0;
+  border-color: #2ecc71;
+}
+
+.info-box:nth-child(3) {
+  background-color: #a0e7ff;
+  border-color: #2196f3;
+}
+
+/* Text */
+.info-box p {
+  font-size: 16px;
+  color: #333;
+  margin: 5px;
+}
+
+.info-box strong {
+  color: #d81b60;
+  font-weight: bold;
+}
+
+/* Hover effect */
+.profile-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
